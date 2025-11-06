@@ -1,5 +1,89 @@
 [
   {
+    "ContainingType": "Api_Trab.Controllers.TrabajadorController",
+    "Method": "GetTrabajador",
+    "RelativePath": "api/Trabajador/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Api_Trab.Models.Trabajador",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Api_Trab.Controllers.TrabajadorController",
+    "Method": "Agregar",
+    "RelativePath": "api/Trabajador/Agregar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Api_Trab.Models.Trabajador",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Trab.Controllers.TrabajadorController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Trabajador/Eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Trab.Controllers.TrabajadorController",
+    "Method": "ListarUsuarios",
+    "RelativePath": "api/Trabajador/Listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Trab.Controllers.TrabajadorController",
+    "Method": "Modificar",
+    "RelativePath": "api/Trabajador/Modificar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Api_Trab.Models.Trabajador",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Api_Trab.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
