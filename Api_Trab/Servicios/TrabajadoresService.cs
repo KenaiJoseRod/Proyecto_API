@@ -13,20 +13,38 @@ namespace Api_Trab.Servicios
             _context = context;
             _dbSet = _context.Set<Trabajador>();
         }
-        public async Task<int> AddUser(Trabajador modelo)
+        public async Task<int> AddUser(Trabajador modelo, IFormFile foto)
         {
-            var fotoData = modelo.Foto ?? new byte[0];
+            // Guardar la imagen en la carpeta wwwroot/images
+            string fotoPath = null;
+            if (foto != null)
+            {
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+                if (!Directory.Exists(uploadsFolder))
+                    Directory.CreateDirectory(uploadsFolder);
 
+                var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(foto.FileName);
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await foto.CopyToAsync(fileStream);
+                }
+
+                fotoPath = "/images/" + uniqueFileName; // ruta relativa
+            }
+
+            // Insertar en la base de datos usando la ruta
             int filasAfectadas = await _context.Database.ExecuteSqlRawAsync(
-                "EXEC sp_AddTrabajador @Nombres={0}, @Apellidos={1}, @Tipo_documento={2}, @Numero_documento={3}, @Sexo={4}, @Fecha_nacimiento={5}, @Foto={6}, @Direccion={7}",
+                "EXEC sp_AddTrabajador @Nombres={0}, @Apellidos={1}, @Tipo_documento={2}, @Numero_documento={3}, @Sexo={4}, @Fecha_nacimiento={5}, @FotoPath={6}, @Direccion={7}",
                 modelo.Nombres,
                 modelo.Apellidos,
                 modelo.TipoDocumento,
                 modelo.NumeroDocumento,
                 modelo.Sexo,
                 modelo.FechaNacimiento,
-                fotoData,
-                modelo.Direccion??""
+                fotoPath ?? "",
+                modelo.Direccion ?? ""
             );
 
             return filasAfectadas;
@@ -58,7 +76,7 @@ namespace Api_Trab.Servicios
         }
         public async Task<int> UpdateUser(Trabajador modelo)
         {
-            var fotoData = modelo.Foto ?? new byte[0];
+            
 
             int filasAfectadas = await _context.Database.ExecuteSqlRawAsync(
                 "EXEC sp_UpdateTrabajador @Personid={0}, @Nombres={1}, @Apellidos={2}, @Tipo_documento={3}, @Numero_documento={4}, @Sexo={5}, @Fecha_nacimiento={6}, @Foto={7}, @Direccion={8}",
@@ -69,7 +87,7 @@ namespace Api_Trab.Servicios
                 modelo.NumeroDocumento,
                 modelo.Sexo,
                 modelo.FechaNacimiento,
-                fotoData,
+              
                 modelo.Direccion ??""
             );
 

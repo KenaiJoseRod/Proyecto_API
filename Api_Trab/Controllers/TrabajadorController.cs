@@ -20,11 +20,8 @@ namespace Api_Trab.Controllers
         public async Task<IActionResult> ListarUsuarios()
         {
             var usuario = await _service.AllUsers();
-            return Ok(new
-            {
-                message = "Listado de trabajadores",
-                usuario
-            });
+            return Ok(usuario);
+         
         }
         [HttpGet("{id}")]
         public async Task<ActionResult<Trabajador>> GetTrabajador(int id)
@@ -40,27 +37,50 @@ namespace Api_Trab.Controllers
         }
         [HttpPost]
         [Route("Agregar")]
-        public async Task<IActionResult> Agregar([FromBody] Trabajador modelo)
+        public async Task<IActionResult> Agregar([FromBody] Trabajador modelo, IFormFile foto)
         {
-            var filas = await _service.AddUser(modelo);
-            // Asumiendo que modelo. Id se llena tras SaveChangesAsync()
+            if (foto != null)
+            {
+                // Carpeta donde se guardarán las imágenes
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+                if (!Directory.Exists(uploadsFolder))
+                {
+                    Directory.CreateDirectory(uploadsFolder);
+                }
+
+                // Crear un nombre único para el archivo
+                var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(foto.FileName);
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await foto.CopyToAsync(fileStream);
+                }
+
+                // Guardamos la ruta relativa en el modelo
+                modelo.Foto = "/images/" + uniqueFileName;
+            }
+
+            var filas = await _service.AddUser(modelo, foto); // ✔ ahora pasamos ambos
+            return Ok(new { success = true, filas });
+
+        }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Modificar(int id, [FromBody] Trabajador modelo)
+        {
+            if (id != modelo.Personid) // Validar que el id coincida
+            {
+                return BadRequest(new { success = false, message = "El ID no coincide con el trabajador" });
+            }
+
+            var filas = await _service.UpdateUser(modelo);
 
             return Ok(new
             {
-                message = "Trabajador creado con éxito ✅",
-                filas
-            });
-        }
-        [HttpPut]
-        [Route("Modificar")]
-        public async Task<IActionResult> Modificar([FromBody] Trabajador modelo)
-        {
-            var filas = await _service.UpdateUser(modelo);
-            // Asumiendo que modelo.Id se llena tras SaveChangesAsync()
-            return Ok(new
-            {
+                success = true,
                 message = "Trabajador editado con éxito ✅",
-                filas
+                filasAfectadas = filas,
+                data = modelo
             });
         }
         [HttpDelete]

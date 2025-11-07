@@ -55,12 +55,21 @@
             }
           }
         }
-      }
-    },
-    "/api/Trabajador/Agregar": {
-      "post": {
+      },
+      "put": {
         "tags": [
           "Trabajador"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -88,24 +97,14 @@
         }
       }
     },
-    "/api/Trabajador/Modificar": {
-      "put": {
+    "/api/Trabajador/Agregar": {
+      "post": {
         "tags": [
           "Trabajador"
         ],
         "requestBody": {
           "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Trabajador"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Trabajador"
-              }
-            },
-            "application/*+json": {
+            "multipart/form-data": {
               "schema": {
                 "$ref": "#/components/schemas/Trabajador"
               }
@@ -216,7 +215,6 @@
           },
           "foto": {
             "type": "string",
-            "format": "byte",
             "nullable": true
           },
           "direccion": {

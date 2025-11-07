@@ -35,7 +35,10 @@ public partial class BdTrabajadorContext : DbContext
                 .IsUnicode(false)
                 .HasDefaultValueSql("(NULL)");
             entity.Property(e => e.FechaNacimiento).HasColumnName("Fecha_nacimiento");
-            entity.Property(e => e.Foto).HasDefaultValueSql("(NULL)");
+            entity.Property(e => e.Foto)
+                  .HasMaxLength(255)
+                  .IsUnicode(false)
+                  .HasDefaultValue(null);
             entity.Property(e => e.Nombres)
                 .HasMaxLength(100)
                 .IsUnicode(false);

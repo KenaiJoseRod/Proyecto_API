@@ -19,7 +19,7 @@ public partial class Trabajador
 
     public DateOnly FechaNacimiento { get; set; }
 
-    public byte[]? Foto { get; set; }
+    public string? Foto{ get; set; }
 
     public string? Direccion { get; set; }
 }
