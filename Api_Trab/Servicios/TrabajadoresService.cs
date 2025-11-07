@@ -13,43 +13,23 @@ namespace Api_Trab.Servicios
             _context = context;
             _dbSet = _context.Set<Trabajador>();
         }
-        public async Task<int> AddUser(Trabajador modelo, IFormFile foto)
+        public async Task<int> AddUser(Trabajador modelo)
         {
-            // Guardar la imagen en la carpeta wwwroot/images
-            string fotoPath = null;
-            if (foto != null)
-            {
-                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
-                if (!Directory.Exists(uploadsFolder))
-                    Directory.CreateDirectory(uploadsFolder);
 
-                var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(foto.FileName);
-                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
-
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
-                {
-                    await foto.CopyToAsync(fileStream);
-                }
-
-                fotoPath = "/images/" + uniqueFileName; // ruta relativa
-            }
-
-            // Insertar en la base de datos usando la ruta
             int filasAfectadas = await _context.Database.ExecuteSqlRawAsync(
-                "EXEC sp_AddTrabajador @Nombres={0}, @Apellidos={1}, @Tipo_documento={2}, @Numero_documento={3}, @Sexo={4}, @Fecha_nacimiento={5}, @FotoPath={6}, @Direccion={7}",
+                "EXEC sp_AddTrabajador @Nombres={0}, @Apellidos={1}, @Tipo_documento={2}, @Numero_documento={3}, @Sexo={4}, @Fecha_nacimiento={5}, @Foto={6}, @Direccion={7}",
                 modelo.Nombres,
                 modelo.Apellidos,
                 modelo.TipoDocumento,
                 modelo.NumeroDocumento,
                 modelo.Sexo,
                 modelo.FechaNacimiento,
-                fotoPath ?? "",
+                modelo.Foto ?? "",
                 modelo.Direccion ?? ""
             );
 
             return filasAfectadas;
         }
-
         public async Task<List<Trabajador>> AllUsers()
         {
             var lista = await _context.Trabajadores
@@ -87,7 +67,7 @@ namespace Api_Trab.Servicios
                 modelo.NumeroDocumento,
                 modelo.Sexo,
                 modelo.FechaNacimiento,
-              
+                modelo.Foto ?? "",
                 modelo.Direccion ??""
             );
 

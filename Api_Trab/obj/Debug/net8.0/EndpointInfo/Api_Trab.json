@@ -55,21 +55,101 @@
             }
           }
         }
-      },
-      "put": {
+      }
+    },
+    "/api/Trabajador/Agregar": {
+      "post": {
         "tags": [
           "Trabajador"
         ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Personid": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Nombres": {
+                    "type": "string"
+                  },
+                  "Apellidos": {
+                    "type": "string"
+                  },
+                  "TipoDocumento": {
+                    "type": "string"
+                  },
+                  "NumeroDocumento": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Sexo": {
+                    "type": "string"
+                  },
+                  "FechaNacimiento": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "Direccion": {
+                    "type": "string"
+                  },
+                  "Archivo": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Foto": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Personid": {
+                  "style": "form"
+                },
+                "Nombres": {
+                  "style": "form"
+                },
+                "Apellidos": {
+                  "style": "form"
+                },
+                "TipoDocumento": {
+                  "style": "form"
+                },
+                "NumeroDocumento": {
+                  "style": "form"
+                },
+                "Sexo": {
+                  "style": "form"
+                },
+                "FechaNacimiento": {
+                  "style": "form"
+                },
+                "Direccion": {
+                  "style": "form"
+                },
+                "Archivo": {
+                  "style": "form"
+                },
+                "Foto": {
+                  "style": "form"
+                }
+              }
             }
           }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Trabajador/Modificar": {
+      "put": {
+        "tags": [
+          "Trabajador"
         ],
         "requestBody": {
           "content": {
@@ -84,27 +164,6 @@
               }
             },
             "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Trabajador"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Trabajador/Agregar": {
-      "post": {
-        "tags": [
-          "Trabajador"
-        ],
-        "requestBody": {
-          "content": {
-            "multipart/form-data": {
               "schema": {
                 "$ref": "#/components/schemas/Trabajador"
               }
@@ -213,11 +272,16 @@
             "type": "string",
             "format": "date"
           },
-          "foto": {
+          "direccion": {
             "type": "string",
             "nullable": true
           },
-          "direccion": {
+          "archivo": {
+            "type": "string",
+            "format": "binary",
+            "nullable": true
+          },
+          "foto": {
             "type": "string",
             "nullable": true
           }

@@ -1,20 +1,21 @@
 ﻿import axios from 'axios';
-
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 
 export const getTrabajadorRequest = async () =>
-    await axios.get('https://localhost:7007/api/Trabajador/Listar');
+    await axios.get(`${API_BASE_URL}/api/Trabajador/Listar`);
 
-export const createTrabajadorRequest = async (trabajadore) => {
-    return await axios.post('https://localhost:7007/api/Trabajador/Agregar', trabajadore, {
+export const createTrabajadorRequest = async (trabajador) => {
+    await axios.post(`${API_BASE_URL}/api/Trabajador/Agregar`, trabajador, {
         headers: { 'Content-Type': 'multipart/form-data' }
     });
 };
 export const deleteTrabajadorRequest = async (id) =>
-    await axios.delete(`https://localhost:7007/api/Trabajador/Eliminar?id=${id}`);
+    await axios.delete(`${API_BASE_URL}/api/Trabajador/Eliminar?id=${id}`);
 
 export const getTrabajadorRequestById = async (id) =>
-    await axios.get(`https://localhost:7007/api/Trabajador/${id}`);
+    await axios.get(`${API_BASE_URL}/api/Trabajador/${id}`);
 
 export const updateTrabajadorRequest = async (id, trabajador) =>
-    await axios.put(`https://localhost:7007/api/Trabajador/${id}`, trabajador);
-
+    await axios.put(`${API_BASE_URL}/api/Trabajador/Modificar`, trabajador, {
+        headers: { 'Content-Type': 'application/json' }
+    });

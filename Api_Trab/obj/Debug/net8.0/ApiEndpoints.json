@@ -27,27 +27,6 @@
   },
   {
     "ContainingType": "Api_Trab.Controllers.TrabajadorController",
-    "Method": "Modificar",
-    "RelativePath": "api/Trabajador/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "modelo",
-        "Type": "Api_Trab.Models.Trabajador",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Api_Trab.Controllers.TrabajadorController",
     "Method": "Agregar",
     "RelativePath": "api/Trabajador/Agregar",
     "HttpMethod": "POST",
@@ -55,13 +34,53 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "modelo",
-        "Type": "Api_Trab.Models.Trabajador",
-        "IsRequired": true
+        "Name": "Personid",
+        "Type": "System.Int32",
+        "IsRequired": false
       },
       {
-        "Name": "foto",
+        "Name": "Nombres",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Apellidos",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TipoDocumento",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumeroDocumento",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Sexo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaNacimiento",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "Direccion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Archivo",
         "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Foto",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -91,6 +110,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Trab.Controllers.TrabajadorController",
+    "Method": "Modificar",
+    "RelativePath": "api/Trabajador/Modificar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelo",
+        "Type": "Api_Trab.Models.Trabajador",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

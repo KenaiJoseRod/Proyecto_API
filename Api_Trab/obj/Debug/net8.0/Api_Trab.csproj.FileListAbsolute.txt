@@ -175,3 +175,4 @@ C:\Users\USER\source\repos\Api_Trab\Api_Trab\bin\Debug\net8.0\runtimes\win\lib\n
 C:\Users\USER\source\repos\Api_Trab\Api_Trab\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\USER\source\repos\Api_Trab\Api_Trab\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\USER\source\repos\Api_Trab\Api_Trab\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\USER\source\repos\Api_Trab\Api_Trab\bin\Debug\net8.0\Api_Trab.staticwebassets.runtime.json

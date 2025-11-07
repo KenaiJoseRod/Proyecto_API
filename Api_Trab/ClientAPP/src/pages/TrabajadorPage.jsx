@@ -18,7 +18,8 @@ function TrabajadorPage() {
     const { trabajadores, loadTrabajador, DeletTrabajador } = useTrabajador();
     const [search, setSearch] = useState('');
     const navigate = useNavigate();
- 
+    const API_BASE_URL = import.meta.env.VITE_API_URL;
+
     useEffect(() => {
         console.log("Cargando trabajadores...");
         loadTrabajador();
@@ -74,9 +75,15 @@ function TrabajadorPage() {
             {
                 name: 'Foto',
                 cell: row => row.foto
-                    ? <img src={`https://localhost:7007${row.foto}`} alt="Foto" width={50} height={50} style={{ objectFit: 'cover', borderRadius: '50%' }} />
+                    ? <img
+                        src={`${API_BASE_URL}${row.foto}`}
+                        alt="Foto"
+                        width={50}
+                        height={50}
+                        style={{ objectFit: 'cover', borderRadius: '50%' }}
+                    />
                     : <span>No tiene</span>
-            },           
+            },        
             { name: 'Direccion', selector: row => row.direccion },
             {
                name: 'Acciones',

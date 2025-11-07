@@ -7,9 +7,9 @@ import Swal from 'sweetalert2'
 
 function TrabajadorForm() {
     const { createTrabajador, getTrabajadorId, updateTrabajador } = useTrabajador();
-    const [fotoArchivo, setFotoArchivo] = useState(null);
 
     const [trabajador, setTrabajador] = useState({
+        personid: "",
         nombres: "",
         apellidos: "",
         tipoDocumento: "",
@@ -32,13 +32,14 @@ function TrabajadorForm() {
                     const trabajador = await getTrabajadorId(params.id);
 
                     setTrabajador({
+                        personid: trabajador.personid,
                         nombres: trabajador.nombres,
                         apellidos: trabajador.apellidos,
                         tipoDocumento: trabajador.tipoDocumento,
                         numeroDocumento: trabajador.numeroDocumento,
                         sexo: trabajador.sexo,
                         fechaNacimiento: trabajador.fechaNacimiento,
-                        foto: trabajador.foto,
+                        Archivo: trabajador.Archivo,
                         direccion: trabajador.direccion
                     }); 
                 }
@@ -54,36 +55,23 @@ function TrabajadorForm() {
         <div className="d-flex justify-content-center align-items-center"
             style={{ minHeight: '50px' }} >
 
-
             <Formik
                 enableReinitialize
                 initialValues={trabajador}
                 onSubmit={async (values, actions) => {
-                    try {
-                        const formData = new FormData();
-
-                        // Agregamos todos los campos
-                        formData.append("nombres", values.nombres);
-                        formData.append("apellidos", values.apellidos);
-                        formData.append("tipoDocumento", values.tipoDocumento);
-                        formData.append("numeroDocumento", values.numeroDocumento);
-                        formData.append("sexo", values.sexo);
-                        formData.append("fechaNacimiento", values.fechaNacimiento);
-                        formData.append("direccion", values.direccion);
-
-                        // Agregar foto si existe
-                        if (fotoArchivo) {
-                            formData.append("foto", fotoArchivo);
-                        }
-
+                    try { 
                         if (params.id) {
-                            formData.append("Personid", params.id); // importante para PUT
-                            await updateTrabajador(params.id, formData);
+                            await updateTrabajador(values);
                             Swal.fire('Actualizado', 'El trabajador ha sido editado con éxito', 'success');
-                            navigate('/');
+                            console.log(values)
                         } else {
-                            await createTrabajador(formData);
-                            Swal.fire('Creado', 'El trabajador se ha creado con éxito', 'success');
+                            try {
+                                await createTrabajador(values);
+                                Swal.fire('Creado', 'El trabajador se ha creado con éxito', 'success');
+                            } catch (error) {
+                                console.error("Error al guardar trabajador:", error);
+                            }
+                            
                         }
 
                         // Limpiar formulario
@@ -96,7 +84,6 @@ function TrabajadorForm() {
                             fechaNacimiento: "",
                             direccion: ""
                         });
-                        setFotoArchivo(null);
 
                     } catch (error) {
                         console.error("Error al guardar trabajador:", error);
@@ -104,13 +91,13 @@ function TrabajadorForm() {
                     }
                 }}
             >
-                {({ handleChange, handleSubmit, values, isSubmitting }) => (
+                {({ handleChange, handleSubmit, values, isSubmitting, setFieldValue }) => (
 
                     <BootstrapForm onSubmit={handleSubmit} className="w-75">
                         <h1 className="text-center mb-4">
                             {params.id ? 'Editar Trabajador' : 'Crear Trabajador'}
                         </h1>
-
+                        
                         <Row>
                             <Col md={6}>
                                 <BootstrapForm.Group className="mb-3">
@@ -183,9 +170,9 @@ function TrabajadorForm() {
                                         required
                                     >
                                         <option value="">Seleccione sexo</option>
-                                        <option value="M">Masculino</option>
-                                        <option value="F">Femenino</option>
-                                        <option value="O">Otro</option>
+                                        <option value="Masculino">Masculino</option>
+                                        <option value="Femenino">Femenino</option>
+                                        <option value="Otro">Otro</option>
                                     </BootstrapForm.Select>
                                 </BootstrapForm.Group>
                             </Col>
@@ -218,13 +205,12 @@ function TrabajadorForm() {
                             <BootstrapForm.Label>Foto</BootstrapForm.Label>
                             <BootstrapForm.Control
                                 type="file"
-                                name="foto"
-                                onChange={(e) => {
-                                    const file = e.target.files[0];
-                                    if (file) setFotoArchivo(file);
-                                }}
+                                name="Archivo"
+                                accept="image/*"
+                                onChange={(e) => setFieldValue("foto", e.target.files[0])}
                             />
                         </BootstrapForm.Group>
+
 
 
                         <div className="d-flex gap-2 justify-content-center">

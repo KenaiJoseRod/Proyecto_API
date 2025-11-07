@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\Api_Trab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\pages\\trabajadorpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\pages\\trabajadorpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\api\\trabajadorapi.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\api\\trabajadorapi.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\components\\modalcomponents.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\components\\modalcomponents.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\api\\trabajadorapi.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\api\\trabajadorapi.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\context\\trabajadorcontext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\context\\trabajadorcontext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\components\\trabajdorcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\components\\trabajdorcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\context\\trabajadorprovider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\context\\trabajadorprovider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\pages\\trabajadorform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\pages\\trabajadorform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\models\\trabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\models\\trabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\servicios\\itrabajadoresservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\servicios\\itrabajadoresservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\controllers\\trabajadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,12 +27,64 @@
       "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\models\\bdtrabajadorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\context\\trabajadorcontext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\context\\trabajadorcontext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\servicios\\trabajadoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\servicios\\trabajadoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\servicios\\itrabajadoresservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\servicios\\itrabajadoresservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\models\\trabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\models\\trabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\pages\\trabajadorpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\pages\\trabajadorpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\pages\\trabajadorform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\pages\\trabajadorform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\pages\\notfound.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\pages\\notfound.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\context\\trabajadorprovider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\context\\trabajadorprovider.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\wwwroot\\trabajadores\\6eb49423-a999-40a8-8bbd-29b7c02c0eb5_celular4.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\wwwroot\\trabajadores\\6eb49423-a999-40a8-8bbd-29b7c02c0eb5_celular4.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\dto\\trabajadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\dto\\trabajadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\components\\trabajdorcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\components\\trabajdorcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\main.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -57,26 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\servicios\\trabajadoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\servicios\\trabajadoresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\src\\pages\\notfound.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\clientapp\\src\\pages\\notfound.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\clientapp\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -115,10 +131,6 @@
       "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|c:\\users\\user\\source\\repos\\api_trab\\api_trab\\api_trab.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{64D5C927-D01A-43E2-A69C-6ED748D8AAF6}|Api_Trab\\Api_Trab.csproj|solutionrelative:api_trab\\api_trab.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -130,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Bookmark",
@@ -190,54 +202,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TrabajadorProvider.jsx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\context\\TrabajadorProvider.jsx",
-              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\context\\TrabajadorProvider.jsx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\context\\TrabajadorProvider.jsx",
-              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\context\\TrabajadorProvider.jsx",
-              "ViewState": "AgIAABYAAAAAAAAAAAAUwEEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-06T18:22:38.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TrabajadorForm.jsx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\pages\\TrabajadorForm.jsx",
-              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\pages\\TrabajadorForm.jsx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\pages\\TrabajadorForm.jsx",
-              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\pages\\TrabajadorForm.jsx",
-              "ViewState": "AgIAANYAAAAAAAAAAAAUwN8AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-06T18:30:09.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TrabajadorPage.jsx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\pages\\TrabajadorPage.jsx",
-              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\pages\\TrabajadorPage.jsx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\pages\\TrabajadorPage.jsx",
-              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\pages\\TrabajadorPage.jsx",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwEUAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-06T18:30:38.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Trabajador.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Models\\Trabajador.cs",
-              "RelativeDocumentMoniker": "Api_Trab\\Models\\Trabajador.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Models\\Trabajador.cs",
-              "RelativeToolTip": "Api_Trab\\Models\\Trabajador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T15:11:03.025Z",
+              "DocumentIndex": 3,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\.env",
+              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\.env",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\.env",
+              "RelativeToolTip": "Api_Trab\\ClientAPP\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-07T19:36:58.728Z",
               "EditorCaption": ""
             },
             {
@@ -248,105 +221,53 @@
               "RelativeDocumentMoniker": "Api_Trab\\Servicios\\ITrabajadoresServices.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Servicios\\ITrabajadoresServices.cs",
               "RelativeToolTip": "Api_Trab\\Servicios\\ITrabajadoresServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T15:17:43.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TrabajdorCard.jsx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\components\\TrabajdorCard.jsx",
-              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\components\\TrabajdorCard.jsx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\components\\TrabajdorCard.jsx",
-              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\components\\TrabajdorCard.jsx",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-06T18:56:39.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TrabajadorApi.jsx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\api\\TrabajadorApi.jsx",
-              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\api\\TrabajadorApi.jsx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\api\\TrabajadorApi.jsx",
-              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\api\\TrabajadorApi.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-06T18:01:21.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ModalComponents.jsx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\components\\ModalComponents.jsx",
-              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\components\\ModalComponents.jsx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\components\\ModalComponents.jsx",
-              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\components\\ModalComponents.jsx",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwBgAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-06T21:01:37.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TrabajadorController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Controllers\\TrabajadorController.cs",
-              "RelativeDocumentMoniker": "Api_Trab\\Controllers\\TrabajadorController.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Controllers\\TrabajadorController.cs",
-              "RelativeToolTip": "Api_Trab\\Controllers\\TrabajadorController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAtwBUAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T15:53:55.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "BdTrabajadorContext.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Models\\BdTrabajadorContext.cs",
               "RelativeDocumentMoniker": "Api_Trab\\Models\\BdTrabajadorContext.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Models\\BdTrabajadorContext.cs",
               "RelativeToolTip": "Api_Trab\\Models\\BdTrabajadorContext.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAawCUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAawCgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T15:10:24.514Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.css",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\App.css",
-              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\App.css",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\App.css",
-              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\App.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-06T17:51:53.09Z",
+              "DocumentIndex": 6,
+              "Title": "TrabajadoresService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Servicios\\TrabajadoresService.cs",
+              "RelativeDocumentMoniker": "Api_Trab\\Servicios\\TrabajadoresService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Servicios\\TrabajadoresService.cs",
+              "RelativeToolTip": "Api_Trab\\Servicios\\TrabajadoresService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:18:19.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "main.tsx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\main.tsx",
-              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\main.tsx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\main.tsx",
-              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\main.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-11-06T17:57:58.929Z",
+              "DocumentIndex": 4,
+              "Title": "TrabajadorController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Controllers\\TrabajadorController.cs",
+              "RelativeDocumentMoniker": "Api_Trab\\Controllers\\TrabajadorController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Controllers\\TrabajadorController.cs",
+              "RelativeToolTip": "Api_Trab\\Controllers\\TrabajadorController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAwE0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:53:55.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "TrabajadorContext.jsx",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\context\\TrabajadorContext.jsx",
               "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\context\\TrabajadorContext.jsx",
@@ -359,72 +280,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "App.tsx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\App.tsx",
-              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\App.tsx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\App.tsx",
-              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\App.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-11-06T17:51:56.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Program.cs",
-              "RelativeDocumentMoniker": "Api_Trab\\Program.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Program.cs",
-              "RelativeToolTip": "Api_Trab\\Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T15:08:18.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TrabajadoresService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Servicios\\TrabajadoresService.cs",
-              "RelativeDocumentMoniker": "Api_Trab\\Servicios\\TrabajadoresService.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Servicios\\TrabajadoresService.cs",
-              "RelativeToolTip": "Api_Trab\\Servicios\\TrabajadoresService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T15:18:19.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Api_Trab\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Api_Trab\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T15:48:01.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "NavBar.jsx",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\components\\NavBar.jsx",
-              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\components\\NavBar.jsx",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\components\\NavBar.jsx",
-              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\components\\NavBar.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ModalComponents.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\components\\ModalComponents.jsx",
+              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\components\\ModalComponents.jsx",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\components\\ModalComponents.jsx",
+              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\components\\ModalComponents.jsx",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-11-06T18:14:16.908Z",
+              "WhenOpened": "2025-11-06T21:01:37.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 0,
+              "Title": "TrabajadorApi.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\api\\TrabajadorApi.jsx",
+              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\api\\TrabajadorApi.jsx",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\api\\TrabajadorApi.jsx",
+              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\api\\TrabajadorApi.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-06T18:01:21.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Trabajador.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Models\\Trabajador.cs",
+              "RelativeDocumentMoniker": "Api_Trab\\Models\\Trabajador.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Models\\Trabajador.cs",
+              "RelativeToolTip": "Api_Trab\\Models\\Trabajador.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:11:03.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TrabajadorPage.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\pages\\TrabajadorPage.jsx",
+              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\pages\\TrabajadorPage.jsx",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\pages\\TrabajadorPage.jsx",
+              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\pages\\TrabajadorPage.jsx",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAwE0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-06T18:30:38.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TrabajadorForm.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\pages\\TrabajadorForm.jsx",
+              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\pages\\TrabajadorForm.jsx",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\pages\\TrabajadorForm.jsx",
+              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\pages\\TrabajadorForm.jsx",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAQwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-06T18:30:09.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "NotFound.jsx",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\pages\\NotFound.jsx",
               "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\pages\\NotFound.jsx",
@@ -437,7 +358,147 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TrabajadorProvider.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\context\\TrabajadorProvider.jsx",
+              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\context\\TrabajadorProvider.jsx",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\context\\TrabajadorProvider.jsx",
+              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\context\\TrabajadorProvider.jsx",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-06T18:22:38.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "6eb49423-a999-40a8-8bbd-29b7c02c0eb5_celular4.png",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\wwwroot\\trabajadores\\6eb49423-a999-40a8-8bbd-29b7c02c0eb5_celular4.png",
+              "RelativeDocumentMoniker": "Api_Trab\\wwwroot\\trabajadores\\6eb49423-a999-40a8-8bbd-29b7c02c0eb5_celular4.png",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\wwwroot\\trabajadores\\6eb49423-a999-40a8-8bbd-29b7c02c0eb5_celular4.png",
+              "RelativeToolTip": "Api_Trab\\wwwroot\\trabajadores\\6eb49423-a999-40a8-8bbd-29b7c02c0eb5_celular4.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-11-07T19:30:09.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\appsettings.json",
+              "RelativeDocumentMoniker": "Api_Trab\\appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\appsettings.json",
+              "RelativeToolTip": "Api_Trab\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-06T15:13:26.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Program.cs",
+              "RelativeDocumentMoniker": "Api_Trab\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Program.cs",
+              "RelativeToolTip": "Api_Trab\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:08:18.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TrabajadorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\DTO\\TrabajadorDTO.cs",
+              "RelativeDocumentMoniker": "Api_Trab\\DTO\\TrabajadorDTO.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\DTO\\TrabajadorDTO.cs",
+              "RelativeToolTip": "Api_Trab\\DTO\\TrabajadorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T18:15:39.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Api_Trab\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Api_Trab\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T15:48:01.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.css",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\App.css",
+              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\App.css",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\App.css",
+              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\App.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-06T17:51:53.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "NavBar.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\components\\NavBar.jsx",
+              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\components\\NavBar.jsx",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\components\\NavBar.jsx",
+              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\components\\NavBar.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-06T18:14:16.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TrabajdorCard.jsx",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\components\\TrabajdorCard.jsx",
+              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\components\\TrabajdorCard.jsx",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\components\\TrabajdorCard.jsx",
+              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\components\\TrabajdorCard.jsx",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-11-06T18:56:39.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "main.tsx",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\main.tsx",
+              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\main.tsx",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\main.tsx",
+              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\main.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-06T17:57:58.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.tsx",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\App.tsx",
+              "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\App.tsx",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\App.tsx",
+              "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\App.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-11-06T17:51:56.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\README.md",
               "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\README.md",
@@ -445,12 +506,11 @@
               "RelativeToolTip": "Api_Trab\\ClientAPP\\README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-11-06T19:43:56.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T19:43:56.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "eslint.config.js",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\eslint.config.js",
               "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\eslint.config.js",
@@ -458,12 +518,11 @@
               "RelativeToolTip": "Api_Trab\\ClientAPP\\eslint.config.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-06T19:44:01.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T19:44:01.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\index.html",
               "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\index.html",
@@ -471,12 +530,11 @@
               "RelativeToolTip": "Api_Trab\\ClientAPP\\index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-11-06T19:43:57.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T19:43:57.698Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\package.json",
               "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\package.json",
@@ -484,12 +542,11 @@
               "RelativeToolTip": "Api_Trab\\ClientAPP\\package.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-06T17:57:22.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T17:57:22.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "index.d.ts",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\node_modules\\@types\\react\\index.d.ts",
               "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\node_modules\\@types\\react\\index.d.ts",
@@ -497,12 +554,11 @@
               "RelativeToolTip": "Api_Trab\\ClientAPP\\node_modules\\@types\\react\\index.d.ts",
               "ViewState": "AgIAAHoGAAAAAAAAAAAswIgGAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-11-06T18:23:04.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T18:23:04.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "tsconfig.json",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\tsconfig.json",
               "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\tsconfig.json",
@@ -510,12 +566,11 @@
               "RelativeToolTip": "Api_Trab\\ClientAPP\\tsconfig.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-06T19:43:54.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T19:43:54.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "index.css",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\index.css",
               "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\index.css",
@@ -523,12 +578,11 @@
               "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\index.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-06T17:52:09.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T17:52:09.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "vite-env.d.ts",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\ClientAPP\\src\\vite-env.d.ts",
               "RelativeDocumentMoniker": "Api_Trab\\ClientAPP\\src\\vite-env.d.ts",
@@ -536,12 +590,11 @@
               "RelativeToolTip": "Api_Trab\\ClientAPP\\src\\vite-env.d.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-11-06T17:57:59.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T17:57:59.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Api_Trab\\Properties\\launchSettings.json",
@@ -549,25 +602,11 @@
               "RelativeToolTip": "Api_Trab\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-06T17:40:27.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T17:40:27.755Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\appsettings.json",
-              "RelativeDocumentMoniker": "Api_Trab\\appsettings.json",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\appsettings.json",
-              "RelativeToolTip": "Api_Trab\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-06T15:13:26.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "Api_Trab.csproj",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Api_Trab\\Api_Trab\\Api_Trab.csproj",
               "RelativeDocumentMoniker": "Api_Trab\\Api_Trab.csproj",
@@ -575,8 +614,7 @@
               "RelativeToolTip": "Api_Trab\\Api_Trab.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-06T14:46:18.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T14:46:18.561Z"
             }
           ]
         },

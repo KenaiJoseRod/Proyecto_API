@@ -47,9 +47,9 @@ export const TrabajadorContextProvider = ({ children }) => {
         }
     }
 
-    const updateTrabajador = async (id, trabajador) => {
+    const updateTrabajador = async (trabajador) => {
         try {
-            const response = await updateTrabajadorRequest(id, trabajador);
+            const response = await updateTrabajadorRequest(trabajador);
             console.log("Trabajador actualizado:", response);
             return response.data;
         } catch (error) {
