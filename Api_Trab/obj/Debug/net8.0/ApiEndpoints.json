@@ -121,9 +121,54 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "modelo",
-        "Type": "Api_Trab.Models.Trabajador",
-        "IsRequired": true
+        "Name": "Personid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nombres",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Apellidos",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "TipoDocumento",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumeroDocumento",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Sexo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaNacimiento",
+        "Type": "System.DateOnly",
+        "IsRequired": false
+      },
+      {
+        "Name": "Direccion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Archivo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Foto",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

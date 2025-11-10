@@ -2,6 +2,7 @@
 import { useState } from "react";
 
 function ModalTrabajador({ show, handleClose, onSubmit }) {
+    const API_BASE_URL = process.env.REACT_APP_API_URL;
 
     const [form, setForm] = useState({
         Nombres: "",

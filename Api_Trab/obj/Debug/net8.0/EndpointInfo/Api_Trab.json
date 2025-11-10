@@ -153,19 +153,77 @@
         ],
         "requestBody": {
           "content": {
-            "application/json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/Trabajador"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Trabajador"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Trabajador"
+                "type": "object",
+                "properties": {
+                  "Personid": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Nombres": {
+                    "type": "string"
+                  },
+                  "Apellidos": {
+                    "type": "string"
+                  },
+                  "TipoDocumento": {
+                    "type": "string"
+                  },
+                  "NumeroDocumento": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Sexo": {
+                    "type": "string"
+                  },
+                  "FechaNacimiento": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "Direccion": {
+                    "type": "string"
+                  },
+                  "Archivo": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "Foto": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Personid": {
+                  "style": "form"
+                },
+                "Nombres": {
+                  "style": "form"
+                },
+                "Apellidos": {
+                  "style": "form"
+                },
+                "TipoDocumento": {
+                  "style": "form"
+                },
+                "NumeroDocumento": {
+                  "style": "form"
+                },
+                "Sexo": {
+                  "style": "form"
+                },
+                "FechaNacimiento": {
+                  "style": "form"
+                },
+                "Direccion": {
+                  "style": "form"
+                },
+                "Archivo": {
+                  "style": "form"
+                },
+                "Foto": {
+                  "style": "form"
+                }
               }
             }
           }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Api_Trab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+423d8141f19edcf09a0664064ee440c2a09b5fde")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e2861fcba13cd246dab331c9d692ea33912c2f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Api_Trab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Api_Trab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -66,24 +66,24 @@ function TrabajadorPage() {
         }
 
         const columns = [
-            { name: 'Nombres', selector: row => row.nombres, sortable: true },
-            { name: 'Apellidos', selector: row => row.apellidos },
-            { name: 'Tipo de Documento', selector: row => row.tipoDocumento },
-            { name: 'Numero de documento', selector: row => row.numeroDocumento },
-            { name: 'Sexo', selector: row => row.sexo },
-            { name: 'Fecha de nacimento', selector: row => row.fechaNacimiento },
             {
                 name: 'Foto',
                 cell: row => row.foto
                     ? <img
                         src={`${API_BASE_URL}${row.foto}`}
                         alt="Foto"
-                        width={50}
-                        height={50}
-                        style={{ objectFit: 'cover', borderRadius: '50%' }}
+                        width={80}
+                        height={80}
+                        style={{ objectFit: 'cover', borderRadius: '0%' }}
                     />
                     : <span>No tiene</span>
-            },        
+            },  
+            { name: 'Nombres', selector: row => row.nombres, sortable: true },
+            { name: 'Apellidos', selector: row => row.apellidos },
+            { name: 'Tipo de Documento', selector: row => row.tipoDocumento },
+            { name: 'Numero de documento', selector: row => row.numeroDocumento },
+            { name: 'Sexo', selector: row => row.sexo },
+            { name: 'Fecha de nacimento', selector: row => row.fechaNacimiento },      
             { name: 'Direccion', selector: row => row.direccion },
             {
                name: 'Acciones',

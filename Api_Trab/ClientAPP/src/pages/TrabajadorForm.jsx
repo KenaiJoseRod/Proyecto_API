@@ -7,17 +7,18 @@ import Swal from 'sweetalert2'
 
 function TrabajadorForm() {
     const { createTrabajador, getTrabajadorId, updateTrabajador } = useTrabajador();
+    const API_BASE_URL = import.meta.env.VITE_API_URL;
 
     const [trabajador, setTrabajador] = useState({
-        personid: "",
         nombres: "",
         apellidos: "",
         tipoDocumento: "",
         numeroDocumento: "",
         sexo: "",
         fechaNacimiento: "",
+        direccion: "",
+        archivo: null,
         foto: "",
-        direccion: ""
     })
     const params = useParams();
    
@@ -27,9 +28,9 @@ function TrabajadorForm() {
         const loadTrabajador = async () => {
             try {
                 if (params.id) {
-                    console.log('Cargando trabajador ID:', params.id);
 
                     const trabajador = await getTrabajadorId(params.id);
+                    console.log('Cargando trabajador ID:', trabajador);
 
                     setTrabajador({
                         personid: trabajador.personid,
@@ -39,8 +40,8 @@ function TrabajadorForm() {
                         numeroDocumento: trabajador.numeroDocumento,
                         sexo: trabajador.sexo,
                         fechaNacimiento: trabajador.fechaNacimiento,
-                        Archivo: trabajador.Archivo,
-                        direccion: trabajador.direccion
+                        direccion: trabajador.direccion,
+                        foto: trabajador.foto,
                     }); 
                 }
                
@@ -49,7 +50,7 @@ function TrabajadorForm() {
             }
         };
         loadTrabajador();
-    }, []);
+    }, [params.id]);
   
     return (
         <div className="d-flex justify-content-center align-items-center"
@@ -59,21 +60,30 @@ function TrabajadorForm() {
                 enableReinitialize
                 initialValues={trabajador}
                 onSubmit={async (values, actions) => {
-                    try { 
+                    try {
+                       /* const formData = new FormData();
+                        for (const key in values) {
+                            if (values[key] !== null) {
+                                formData.append(key, values[key]);
+                            }
+                        }*/
                         if (params.id) {
-                            await updateTrabajador(values);
+
                             Swal.fire('Actualizado', 'El trabajador ha sido editado con éxito', 'success');
+                            await updateTrabajador(values);
                             console.log(values)
+
                         } else {
                             try {
                                 await createTrabajador(values);
                                 Swal.fire('Creado', 'El trabajador se ha creado con éxito', 'success');
+                                console.log(values)
+
                             } catch (error) {
-                                console.error("Error al guardar trabajador:", error);
+                                console.error("Error al guardar trabajador:", values);
                             }
                             
                         }
-
                         // Limpiar formulario
                         setTrabajador({
                             nombres: "",
@@ -82,6 +92,7 @@ function TrabajadorForm() {
                             numeroDocumento: "",
                             sexo: "",
                             fechaNacimiento: "",
+                            foto: "",
                             direccion: ""
                         });
 
@@ -205,13 +216,22 @@ function TrabajadorForm() {
                             <BootstrapForm.Label>Foto</BootstrapForm.Label>
                             <BootstrapForm.Control
                                 type="file"
-                                name="Archivo"
+                                name="archivo"
+                                onChange={(e) => setFieldValue("archivo", e.currentTarget.files[0])}
                                 accept="image/*"
-                                onChange={(e) => setFieldValue("foto", e.target.files[0])}
                             />
+                            {values.foto && (
+                                <div className="mt-2 text-center">
+                                    <img
+                                        src={`${API_BASE_URL}${values.foto}`}
+                                        alt="Foto actual"
+                                        width="150"
+                                        height="150"
+                                        style={{ objectFit: "cover", borderRadius: "10px" }}
+                                    />
+                                </div>
+                            )}
                         </BootstrapForm.Group>
-
-
 
                         <div className="d-flex gap-2 justify-content-center">
                             <Button

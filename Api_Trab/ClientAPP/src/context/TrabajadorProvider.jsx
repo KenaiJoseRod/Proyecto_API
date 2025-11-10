@@ -58,7 +58,7 @@ export const TrabajadorContextProvider = ({ children }) => {
     };
     const DeletTrabajador = async (id) => {
         try {
-            console.log('🗑️ Eliminando trabajador ID:', id);
+            console.log('Eliminando trabajador ID:', id);
 
             const response = await deleteTrabajadorRequest(id);
             console.log('✅ Respuesta de eliminación:', response.data);

@@ -18,9 +18,9 @@ namespace Api_Trab.Controllers
 
         public TrabajadorController(ITrabajadoresServices service, IWebHostEnvironment env)
         {
-            _rutaServidor = Path.Combine(env.WebRootPath, "uploads");
-
             _service = service;
+            _rutaServidor = Path.Combine(env.WebRootPath ?? Path.Combine(Directory.GetCurrentDirectory(), "wwwroot"), "uploads");
+
             if (!Directory.Exists(_rutaServidor))
                 Directory.CreateDirectory(_rutaServidor);
         }
@@ -66,7 +66,6 @@ namespace Api_Trab.Controllers
         {
             try
             {
-
                 if (modelo.Archivo != null && modelo.Archivo.Length > 0)
                 {
                     string archivoNombre = Path.GetFileName(modelo.Archivo.FileName);
@@ -76,10 +75,11 @@ namespace Api_Trab.Controllers
                     {
                         await modelo.Archivo.CopyToAsync(stream);
                     }
-
+                    
                     // Guardar ruta pública en la base de datos
                     modelo.Foto = $"/uploads/{archivoNombre}";
                 }
+                
                 var filas = await _service.AddUser(modelo);
 
                 return Ok(new
@@ -92,14 +92,20 @@ namespace Api_Trab.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, new { mensaje = ex.Message });
+                Console.WriteLine($"❌ Error general en Modificar: {ex.Message}");
+                return StatusCode(StatusCodes.Status500InternalServerError, new
+                {
+                    success = false,
+                    message = "Ocurrió un error al actualizar el trabajador.",
+                    detalle = ex.Message
+                });
             }
         }
 
 
-        [HttpPut]
+        /*[HttpPut]
         [Route("Modificar")]
-        public async Task<IActionResult> Modificar([FromBody] Trabajador modelo)
+        public async Task<IActionResult> Modificar([FromForm] Trabajador modelo)
         {
             var filas = await _service.UpdateUser(modelo);
 
@@ -110,6 +116,48 @@ namespace Api_Trab.Controllers
                 filasAfectadas = filas,
                 data = modelo
             });
+        }*/
+        [HttpPut]
+        [Route("Modificar")]
+        public async Task<IActionResult> Modificar([FromForm] Trabajador modelo)
+        {
+            try
+            {
+                if (modelo.Archivo != null && modelo.Archivo.Length > 0)
+                {
+                    string archivoNombre = Path.GetFileName(modelo.Archivo.FileName);
+                    string rutaFisica = Path.Combine(_rutaServidor, archivoNombre);
+                    // Si ya tiene una foto anterior, eliminarla
+                    if (!string.IsNullOrEmpty(modelo.Foto))
+                    {
+                        string rutaAnterior = Path.Combine(_rutaServidor, Path.GetFileName(modelo.Foto));
+                        if (System.IO.File.Exists(rutaAnterior))
+                        {
+                            System.IO.File.Delete(rutaAnterior);
+                        }
+                    }
+                    using (var stream = new FileStream(rutaFisica, FileMode.Create))
+                    {
+                        await modelo.Archivo.CopyToAsync(stream);
+                    }
+                    // Guardar ruta pública en la base de datos
+                    modelo.Foto = $"/uploads/{archivoNombre}";
+                }
+               
+                var filas = await _service.UpdateUser(modelo);
+
+                return Ok(new
+                {
+                    success = true,
+                    message = "Trabajador actualizado con éxito ✅",
+                    filasAfectadas = filas,
+                    data =  modelo
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new { mensaje = ex.Message });
+            }
         }
         [HttpDelete]
         [Route("Eliminar")]

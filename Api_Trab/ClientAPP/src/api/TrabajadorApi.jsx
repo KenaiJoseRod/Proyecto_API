@@ -15,7 +15,8 @@ export const deleteTrabajadorRequest = async (id) =>
 export const getTrabajadorRequestById = async (id) =>
     await axios.get(`${API_BASE_URL}/api/Trabajador/${id}`);
 
-export const updateTrabajadorRequest = async (id, trabajador) =>
+export const updateTrabajadorRequest = async (trabajador) =>
     await axios.put(`${API_BASE_URL}/api/Trabajador/Modificar`, trabajador, {
-        headers: { 'Content-Type': 'application/json' }
+        headers: { 'Content-Type': 'multipart/form-data' }
+   
     });

@@ -25,5 +25,5 @@ public partial class Trabajador
     [NotMapped]
     public IFormFile Archivo { get; set; } // Ignorado por EF Core
 
-    public string Foto { get; set; } // Aquí guardas la ruta del archivo en la DB
+    public string? Foto { get; set; } // Aquí guardas la ruta del archivo en la DB
 }
